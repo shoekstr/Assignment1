@@ -13,7 +13,8 @@ handlers.notFound = function(data,callback){
 
 // Define the request router
 var router = {
-  'sample' : handlers.sample
+  'sample' : handlers.sample,
+  'notFound': handlers.notFound
 };
 
 module.exports = router
